@@ -1,5 +1,11 @@
-webpack 是一个模块打包器。
-webpack 处理带有依赖关系的模块，生成一系列表示这些模块的静态资源。
+# Webpack简介
+Webpack 是当下最热门的前端资源模块化管理和打包工具。
+
+它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源。
+
+还可以将按需加载的模块进行代码分隔，等到实际需要的时候再异步加载。
+
+通过 loader 的转换，任何形式的资源都可以视作模块，比如 CommonJs 模块、 AMD 模块、 ES6 模块、CSS、图片、 JSON、Coffeescript、 LESS 等。
 
 # 安装
 1.install node.js
@@ -91,3 +97,8 @@ $ webpack-dev-server --progress --colors
 
 webpack-dev-server 使用了 webpack 监控模式，
 同时也阻止了 webpack 生成结果文件到硬盘，而是直接通过内存来提供服务。
+
+# 参考
+[Webpack 中文指南] (http://zhaoda.net/webpack-handbook/index.html)
+
+[webpack-doc] (https://github.com/liunian/webpack-doc/blob/master/SUMMARY.md)

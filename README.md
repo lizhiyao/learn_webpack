@@ -25,7 +25,14 @@ Add a package.json configuration file for npm with:
 Install and add webpack to the package.json with:
 
     npm install webpack --save-dev --registry=https://registry.npm.taobao.org
-    npm install -g webpack-dev-server --save-dev --registry=https://registry.npm.taobao.org
+    npm install webpack-dev-server --save-dev --registry=https://registry.npm.taobao.org
+    
+    
+# 配置文件
+
+Webpack 在执行的时候，除了在命令行传入参数，还可以通过指定的配置文件来执行。
+默认情况下，会搜索当前目录的 webpack.config.js 文件
+(需要自己手动创建该配置文件)
 
 # 加载器
 加载器是把一个资源文件作为入参转换为另一个资源文件的 node.js 函数。

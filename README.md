@@ -1,5 +1,13 @@
+title: webpack入门
+date: 2016-03-29 23:18:13
+tags: webpack
+-------------
+
+
 # Webpack是什么
 简而言之，Webpack是一个模块化管理和打包前端资源的工具。
+
+![webpack](what-is-webpack.png)
 
 它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源，
 
@@ -58,7 +66,7 @@ webpack 有一个很出色的插件系统，甚至大部分内置功能都是基
 - AMD 及其变种
 - ES6 模块
 
-### `<script>` 标签方式（无模块系统）
+### 标签方式（无模块系统）
 这是在不使用模块系统的前提下来管理模块代码库的方式。
 
     <script src="libary1.js"></script>
@@ -174,9 +182,9 @@ EcmaScript6 给 JavaScript 增加了模块系统。
 
 - 可以组成一个大的代码库
 
-注：此思路来自 [GWT] (http://www.gwtproject.org/doc/latest/DevGuideCodeSplitting.html)。
+注：此思路来自[GWT](http://www.gwtproject.org/doc/latest/DevGuideCodeSplitting.html)。
 
-更多可参考[代码拆分] (https://github.com/liunian/webpack-doc/blob/master/code-splitting.md)。
+更多可参考[代码拆分](https://github.com/liunian/webpack-doc/blob/master/code-splitting.md)。
 
 ## 为何仅 JavaScript？
 为什么一个模块系统只能帮助开发者打包（模块化）JavaScript？实际上我们还有很多别的静态资源需要处理，如：
@@ -221,7 +229,7 @@ EcmaScript6 给 JavaScript 增加了模块系统。
 
 ## node.js
 
-[安装node.js] (https://nodejs.org/en/)
+[安装node.js](https://nodejs.org/en/)
 
 node.js自带了一个叫做npm的包管理工具
 
@@ -298,9 +306,9 @@ npm 是一个非常好用的用来编译的指令，我们把webpack编译步骤
 
 把下面的内容添加到 package.json中。
 
-"scripts": {
-   "build": "webpack"
-}
+    "scripts": {
+        "build": "webpack"
+    }
 
 ## 设置 webpack-dev-server
 如果需要一直输入 npm run build 确实是一件非常无聊的事情，
@@ -392,12 +400,12 @@ webpack 命令会尝试加载当前目录下的 webpack.config.js 文件。
 
 ## 加载器用法
 
-请参见[在项目中使用webpack+react+es6] (https://github.com/lizhiyao/learn_webpack_react)    
+请参见[在项目中使用webpack+react+es6](https://github.com/lizhiyao/learn_webpack_react)    
 
 
 # 参考
-[Webpack Document] (http://webpack.github.io/docs/)
+[Webpack Document](http://webpack.github.io/docs/)
 
-[Webpack 中文指南] (http://zhaoda.net/webpack-handbook/index.html)
+[Webpack 中文指南](http://zhaoda.net/webpack-handbook/index.html)
 
-[webpack-doc] (https://github.com/liunian/webpack-doc/blob/master/SUMMARY.md)
+[webpack-doc](https://github.com/liunian/webpack-doc/blob/master/SUMMARY.md)

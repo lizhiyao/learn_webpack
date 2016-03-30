@@ -1,13 +1,5 @@
-title: webpack入门
-date: 2016-03-29 23:18:13
-tags: webpack
--------------
-
-
 # Webpack是什么
 简而言之，Webpack是一个模块化管理和打包前端资源的工具。
-
-![webpack](what-is-webpack.png)
 
 它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源，
 
@@ -296,7 +288,7 @@ webpack 会给每个模块一个唯一的 id，然后在 bundle.js 中通过该 
 如果有任何变更，将会触发编译。
 当缓存开启时，webpack 会在内存中保存所有模块内容并在没变更时直接重用。
 
-但在实际项目中，一般不会这样使用。（因为这样看上去有点“蠢”）。
+但在实际项目中，一般不会这样使用。
 
 通常会结合npm命令来在项目中使用Webpack。
 
@@ -409,3 +401,9 @@ webpack 命令会尝试加载当前目录下的 webpack.config.js 文件。
 [Webpack 中文指南](http://zhaoda.net/webpack-handbook/index.html)
 
 [webpack-doc](https://github.com/liunian/webpack-doc/blob/master/SUMMARY.md)
+
+[Webpack傻瓜式指南（一）](http://zhuanlan.zhihu.com/p/20367175)
+
+[Webpack傻瓜指南（二）开发和部署技巧](http://zhuanlan.zhihu.com/p/20397902)
+
+[Webpack傻瓜指南（三）和React配合开发](http://zhuanlan.zhihu.com/p/20522487)
